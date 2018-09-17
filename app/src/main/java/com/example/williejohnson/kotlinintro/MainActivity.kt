@@ -7,6 +7,8 @@ import android.view.View
 import android.widget.TextView
 import android.widget.Toast
 
+import kotlinx.android.synthetic.main.activity_main.textView
+
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -20,7 +22,7 @@ class MainActivity : AppCompatActivity() {
 
     fun countMe(view: View) {
         // Get the text view.
-        val showCountTextView = findViewById<TextView>(R.id.textView)
+        val showCountTextView = textView
 
         // Get the value of the text view.
         val countString = showCountTextView.text.toString()
