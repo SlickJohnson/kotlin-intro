@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">KotlinIntro</string>
-    <string name="greeting">Hello People</string>
+    <string name="view_text">0</string>
 </resources>
